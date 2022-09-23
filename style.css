@@ -1,0 +1,74 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+ul {
+  /*list-style-type: none;*/
+}
+
+.pokemon-link,
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.pokemon-card {
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  margin-bottom: 1em;
+  padding-top: 0.5em;
+}
+
+.pokemon-card:hover {
+  border-color: rgb(117, 143, 143);
+  background-color: rgb(141, 211, 211);
+  color: white;
+}
+
+.pokemon-card:hover img {
+  -webkit-animation: spin 0.5s linear forwards;
+  -moz-animation: spin 0.5s linear forwards;
+  animation: spin 0.5s linear forwards;
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotateY(180deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotateY(180deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+}
+
+.stats-icons img {
+  width: 18px;
+  height: 18px;
+}
+
+.pokemon-img {
+  background-color: rgb(141, 185, 235);
+  border-radius: 50%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.pokemon-img:hover {
+  -webkit-animation: spin 0.5s linear forwards;
+  -moz-animation: spin 0.5s linear forwards;
+  animation: spin 0.5s linear forwards;
+}
